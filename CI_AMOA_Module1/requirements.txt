@@ -1,0 +1,39 @@
+# Core Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# AI and ML
+agno>=2.0.0
+openai>=1.0.0
+
+# Database and API
+airtable-python-wrapper>=0.15.0
+requests>=2.30.0
+
+# UI
+streamlit>=1.25.0
+
+# Email Templates
+jinja2>=3.1.2
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.21.0
+
+# Communication (removed for v1 - web only)
+# twilio==8.10.0  # Will be added in future versions
+
+# Utilities
+python-multipart==0.0.6
+aiofiles==23.2.1
+httpx==0.25.2
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Logging
+loguru==0.7.2
